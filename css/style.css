@@ -1,0 +1,161 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+h1 {
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 30px;
+}
+h2,
+h3 {
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: 30px;
+}
+h3 {
+	font-size: 20px;
+}
+.main {
+	padding: 20px;
+}
+.blocks {
+	height: 300px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px 0px #000;
+	margin: 50px;
+}
+.main__block1 {
+	background-color: rgba(20, 169, 196, 0.945);
+}
+.main__block2 {
+	background-image: url(../img/bg_repeat.jpg);
+}
+.main__block3 {
+	background: url(../img/avatar.jpg) 300px 30px no-repeat, url(../img/avatar_2.jpg) center 70% no-repeat,
+		url(../img/avatar_3.jpg) right bottom no-repeat, url(../img/bg.jpg) 50% no-repeat;
+}
+.main__block4 {
+	background: url(../img/avatar.jpg);
+}
+.main__block5 {
+	background: url(../img/avatar.jpg) repeat-x;
+}
+.main__block6 {
+	background: url(../img/avatar.jpg) repeat-y;
+}
+.main__block7 {
+	background: url(../img/avatar.jpg) no-repeat;
+}
+.main__block8 {
+	background: url(../img/avatar.jpg) space;
+}
+.main__block9 {
+	background: url(../img/avatar.jpg) round;
+}
+.main__block10 {
+	background: url(../img/bg.jpg) 50% no-repeat scroll;
+	overflow: auto;
+}
+.main__block11 {
+	background: url(../img/bg.jpg) 50% no-repeat fixed;
+}
+.main__block12 {
+	background: url(../img/bg.jpg) 50% no-repeat local;
+	overflow: auto;
+}
+.main__block13 {
+	background: url(../img/avatar.jpg) 50% / 100% no-repeat;
+}
+.main__block14 {
+	background: url(../img/avatar.jpg) 50% / auto 100% no-repeat;
+}
+.main__block15 {
+	background: url(../img/avatar.jpg) 50% / 300px 150px no-repeat;
+}
+.main__block16 {
+	background: url(../img/bg.jpg) 50% / contain no-repeat;
+}
+.main__block17 {
+	background: url(../img/bg.jpg) 50% / cover no-repeat;
+}
+ul {
+	display: inline-block;
+}
+.list li {
+	font-size: 20px;
+	padding: 20px;
+	background: url(../img/icons/li.svg) 100% 22px no-repeat;
+}
+.firstblock h3 {
+	text-align: left;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0px;
+}
+.firstblock {
+	font-family: Roboto;
+	font-weight: 400;
+	line-height: 143%;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+.firstblock li {
+	padding: 28px 0px 18px 20px;
+	text-transform: uppercase;
+}
+li.one {
+	background: url(../img/point.svg) 0px 45% / 16px 16px no-repeat;
+}
+li.two {
+	background: url(../img/mobile.svg) 0px 60% / 16px 16px no-repeat;
+}
+li.three {
+	background: url(../img/email.svg) 0px 60% / 16px 16px no-repeat;
+}
+li.four {
+	background: url(../img/timer_24px.svg) 0px 60% / 16px 16px no-repeat;
+}
